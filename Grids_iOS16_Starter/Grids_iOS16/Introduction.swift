@@ -33,7 +33,7 @@ struct Introduction: View {
                                 .gridCellAnchor(.trailing)
                         }
                             Rectangle().frame(height: 1)
-                                .gridCellUnsizedAxes((.horizontal))
+                                .gridCellUnsizedAxes([.horizontal])
 
                         
                         
